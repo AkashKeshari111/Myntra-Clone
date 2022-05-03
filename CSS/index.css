@@ -4,41 +4,43 @@ body{
 }
 
 #navbar{
-    border:1px solid black;
+    /* border:1px solid black; */
     display: flex;
     background-color: white;
     align-items: center;
-    height: 75px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 80px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    /* width: 100%; */
-    /* flex-wrap: wrap; */
     width:100%;
+    justify-content: center;
 }
 
 .parent-box-1{
-    border:1px solid blue;
+    /* border:1px solid blue; */
     margin-left: 40px;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     width: max-content;
     
 }
 .logo_div{
     margin-right: 15px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
    width: auto;
+   margin-top:10px;
+   
 }
 #logo{
     height:60px;
     width: 60px;
 }
 .menu_div{
-    border: 1px solid teal;
+    /* border: 1px solid teal; */
    margin-left: 10px;
    display: flex;
-   width: max-content;
+   width:600px ;
+   justify-content:space-evenly;
    /* flex-wrap: nowrap; */
 }
 
@@ -47,13 +49,13 @@ body{
     font-weight:550;
     color: rgb(40,44,63);
     text-decoration: none;
-    font-size:12.5px;
+    font-size:14px;
     
 }
 
 .parent-box-2{
-    border:1px solid red;
-    margin-left: 50px;
+    /* border:1px solid red; */
+    margin-left: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,19 +63,20 @@ body{
     
 }
 
+
 .div1>span{
-  /* border-right: 2px solid black; */
-  margin-left: -340px;
-  width: 8px;
+  border-right: 3px solid grey;
+  margin-left: -355px;
+  text-align:center;
 }
 
 #search{
     height: 30px;
-    width: 300px;
+    width: 320px;
     border-radius: 4px;
     background-color: rgb(247, 247, 252);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    padding-left: 50px;
+    padding-left: 40px;
     border-left: 1px solid grey;
 }
 
@@ -85,24 +88,127 @@ body{
 #other_div{
     border:1px solid gold;
     display: flex;
-    margin-left: 350px;
-}
+    margin-left: 380px;
 
-#other_div>div{
-    margin-right: 30px;
+    justify-content: space-evenly;
+    width: 250px;
+    text-align: center;
+
+
 }
 #other_div>div>h5>a{
     color:rgb(40,44,63);
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
+    /* display: flex;
+    align-items: center; */
 }
-/* #other_div>div>h5{
-    padding-top: 2px;
-} */
 
 
-/* .font{
-    width: 10px;
-    height: 5px;
-} */
+.i1{
+    font-size: 20px;
+    color:rgb(40,44,63);
+    margin-bottom:-30px;
+   margin-left: 2px;
+}
+
+#main_div{
+        border:1px solid red;
+        display: inline-block;
+        position: relative;
+    
+
+}
+
+#button{
+    background-color:white;
+    transition: .3s;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(40,44,63);
+    font-size: 15px;
+    font-weight: 600;
+  
+}
+
+#button:hover{
+    color:hotpink;
+}
+
+#akash{
+    background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    /* z-index: 1; */
+    visibility: hidden;
+    position: absolute;
+     width: max-content;
+    transition: .4s;
+    opacity: 0;
+    margin-top: 29px;
+    border:1px solid red;
+    margin-left: -50px;
+    
+}
+
+#main_div:hover div{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.an_div>a{
+    display: block;
+    text-decoration: none;
+    color :black;
+    background-color: white;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+.an_div>a:hover{
+    background-color: hotpink;
+}
+
+#b{
+    display:flex;
+}
+
+
+
+#d1{
+    margin-left: 20px;
+}
+
+#d2,#d3,#d4,#d5,#d6{
+    margin-left: 30px;
+}
+
+#d4{
+    color:hotpink;
+}
+#d6{
+    margin-right: 20px;
+}
+
+.h5{
+    margin-left:40px;
+
+}
+.h5>a{
+    text-decoration: none;
+    color: hotpink;
+}
+
+hr{
+   border:1px solid rgb(63, 63, 63);
+}
+
+ul>li{
+    line-height:30px;
+    list-style-type: none;
+    
+}
+ul>li>a{
+    text-decoration: none;
+    color:black;
+}
