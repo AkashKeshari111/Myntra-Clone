@@ -1,13 +1,18 @@
 function footer(){
     return ` <div id="mainbox">
     <div class="box1">
-        <h5><a href="" class="h5" >ONLINE SHOPPING</a> </h5>
+        <h5 class="h5_g" >ONLINE SHOPPING</h5>
         <a href="">Men</a>
+        <br>
         <a href="">Women</a>
+        <br>
         <a href="">Home&Living</a>
+        <br>
         <a href="">Beauty</a>
+        <br>
         <a href="">Gifts Cards</a>
-        <a href="">Myntra Insider <span>New</span></a>
+        <br>
+        <a href="">Myntra Insider <a id="new">New</a></a>
         <!-- <p><a href="">Men</a></p>
         <p><a href="">Women</a></p>
         <p><a href="">Kids</a></p>
@@ -17,7 +22,7 @@ function footer(){
         <p><a href="">Myntra Insider</a></p> -->
     </div>
     <div  class="box2">
-        <h5>USEFUL LINKS</h5>
+        <h5 class="h5_g" >USEFUL LINKS</h5>
      <a href="">Contact Us</a>
      <a href="">FAQ</a>
      <a href="">T&C</a>

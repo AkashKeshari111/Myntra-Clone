@@ -45,12 +45,12 @@
     /* border: 1px solid black; */
 }
 
-.box1 .h5{
+.box1 .h5_g>a{
   display: block;
     color: black;
     text-decoration: none;
     cursor: pointer;
-
+   margin-left: -10px;
 }
 
 .box1 a{
@@ -60,16 +60,17 @@
     cursor: pointer;
     margin-top: 10px;
     /* border: 1px solid black; */
+    display:inline;
 }
 
-.box1 span{
-    /* display: block; */
-    background-color: red;
+
+
+#new{
+    border-radius: 4px;
+    background-color: hotpink;
     color: white;
-    border-radius: 30px;
-    width: 150px;
+   
 }
-
 .box2 a{
     display: block;
     color: #989898;
