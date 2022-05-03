@@ -29,15 +29,21 @@ body{
 .logo_div{
     /* margin-right: 15px; */
     /* border: 1px solid green; */
-   width: 50px;
+   width: 65px;
    margin-top:10px;
-   height: 38px;
+   height: 50px;
    cursor:pointer;
 }
 #logo{
     height:100%;
     width: 100%;
 }
+/* .logo_div:hover{
+    width: 68px;
+    margin-top:10px;
+    height: 55px;
+} */
+
 .menu_div{
     /* border: 1px solid teal; */
    margin-left: 10px;
@@ -108,7 +114,7 @@ body{
 #other_div>div>h5>a{
     color:rgb(40,44,63);
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     /* display: flex;
     align-items: center; */
@@ -121,17 +127,17 @@ body{
 
 #i1{
     font-size: 20px;
-    color:red;
-    margin-bottom:-30px;
+    color:rgb(235, 53, 144);
+    margin-bottom:-26px;
   
 }
 
 #profile{
-    margin-bottom: -10px;
+    margin-bottom: -5px;
     cursor:pointer;
     /* border:1px solid red; */
-    width: 30px;
-    height: 28px;
+    width: 25px;
+    height: 25px;
 }
 
 #main_div{
@@ -157,24 +163,45 @@ body{
     color:hotpink;
 }
 
-#akash{
+#akash1,#akash2,#akash3,#akash4,#akash5{
     background-color:white;
     /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
-    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px; */
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
     /* z-index: 1; */
     visibility: hidden;
     position: absolute;
      width: max-content;
     transition: .4s;
     opacity: 0;
-    margin-top: 29px;
+    border-radius:0px 0px 12px 12px ;
+    /* margin-top: 29px; */
     /* border:1px solid red; */
-    margin-left: -50px;
+    /* margin-left: -50px; */
     
-    
+    margin-top: 29px;
 }
 
+#akash1{
+     
+     margin-left: -80px;
+}
+#akash2{
+  
+    margin-left: -50px;
+}
+#akash3{
+    
+    margin-left: -170px;
+}
+#akash4{
+ 
+    margin-left: -230px;
+}
+#akash5{
+
+    margin-left: -290px;
+}
 #main_div:hover div{
     visibility: visible;
     opacity:1;
@@ -257,3 +284,6 @@ ul>li>a:hover{
     margin-right: 40px;
     margin-bottom: 20px;
 }
+
+
+
