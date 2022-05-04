@@ -1,4 +1,11 @@
-let tShirtArr = [
+
+import {navbar} from "./navbar.js"
+document.getElementById("navbar").innerHTML=navbar();
+
+
+
+
+let tshirt_arr = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/12816462/2020/11/24/ba18a805-4903-48a4-a136-c60ca39b22911606200984349-HERENOW-Men-Tshirts-1551606200983033-1.jpg",
       "Brand": "HERE&NOW",
@@ -216,12 +223,14 @@ let tShirtArr = [
       "off": "(75% OFF)"
     }
   ]
-
+  
   // tesirt data end here
 
-  /// Casual sirt  data here
 
- let casualSirt =  [
+
+  // Casual sirt  data here
+
+ let casualShirt =  [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/2284523/2018/2/15/11518684805969-Roadster-Men-Navy-Blue--Green-Regular-Fit-Checked-Casual-Shirt-4471518684805162-1.jpg",
       "brand": "Roadster",
@@ -347,8 +356,8 @@ let tShirtArr = [
       "brand": "WHITE HEART",
       "title": "Solid Pure Cotton Double Dhoti",
       "price": "Rs. 485",
-      "actualPrice": null,
-      "offer": null
+      "actualPrice": "",
+      "offer": ""
     },
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/productimage/2019/11/21/b3eb713b-2e7b-4161-9248-dec3b074ef201574357961193-1.jpg",
@@ -464,7 +473,10 @@ let tShirtArr = [
     }
   ]
 
-  //// casual sirt end here
+  // casual sirt end here
+
+
+
 
   // jeans data start here
 
@@ -710,12 +722,11 @@ let tShirtArr = [
       "offer": "(50% OFF)"
     }
   ]
-  ///// jeans arr end here 
+
+// jeans data end here
 
 
-  /// casualTrauserArr start here
-
-  let casualTrauserARR = [
+    let casualTrauserARR = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/productimage/2020/11/12/b58188ba-77dd-4fc7-bd86-c8cad24a4da91605128902262-1.jpg",
       "brand": "Quechua By Decathlon",
@@ -1957,3 +1968,5 @@ let Belts = [
 
 
 
+import { footer } from "./footer.js";
+document.getElementById("footerDiv").innerHTML=footer();
