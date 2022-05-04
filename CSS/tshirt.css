@@ -1,0 +1,160 @@
+
+.div1>span{
+    margin-left: -320px;
+}
+
+
+#search{
+    height: 40px;
+    width: 340px;
+  
+}
+
+
+.container-fluid{
+    /* border:1px solid red; */
+    margin-top: 8px;
+    margin-bottom: 100px;
+}
+
+
+.row{
+    /* border: 1px solid black; */
+    padding-left: 0px;
+    padding-right:0px;
+
+}
+
+.col-2{
+    border: 1px solid rgb(226, 226, 226);
+   
+}
+
+.col-10{
+    border: 1px solid rgb(226, 226, 226);
+         
+}
+
+#c1{
+    border:0;
+}
+
+p>span{
+ font-weight: 600;
+}
+
+#filter{
+margin-left: 45px;
+
+}
+
+#abc{
+    padding-left: 32px;
+}
+
+#sel1,#sel2{
+    border:0;
+
+}
+
+#sel2{
+    margin-left: 20px;
+}
+
+
+#sort{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 15px;
+
+}
+
+
+#append_data{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTONy2vmXzxc_TBcKUh-Qwj0ZRwb-8OvqL4rA&usqp=CAU");
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top:10px;
+}
+
+
+#inner_div{
+   margin-top:5px;
+}
+
+
+#img1{
+    width:100%;
+    height: 60%;
+}
+
+
+#div_2{
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    /* border:1px solid blue; */
+    height:25px;
+    margin-top: -10px;
+    margin-bottom: 12px;
+}
+
+#div_3{
+    width: 100%;
+        /* border:1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+   align-items: center;
+  
+}
+
+#brand1{
+    margin-top:5px;
+    font-size:20px;
+   font-weight: 600;
+   padding-left: 7px;
+ 
+}
+
+#type1{
+   font-size:16px;
+   font-family: sans-serif;
+   padding-left: 7px;
+   padding-right: 3px;
+   color: rgb(83, 83, 83);
+}
+
+
+
+#price1,#off1{
+    margin-top: 15px;
+}
+#price1{
+    font-weight: 600;
+    font-size: 19px;
+}
+#off1{
+    color: hotpink;
+}
+
+#mp1{
+    color:grey;
+}
+
+
+#img1:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: .2s;
+    width:103%;
+  
+}
+
+
