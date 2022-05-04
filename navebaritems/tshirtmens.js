@@ -273,7 +273,7 @@ tshirt_arr.map(function(el){
   append_data.append(div1)
 
 
-  localStorage.setItem("tshirt",JSON.stringify(tshirt_arr))
+  localStorage.setItem("tshirtMens",JSON.stringify(tshirt_arr))
   console.log("inside")
 
 })

@@ -976,7 +976,7 @@ let tshirt_arr = [
 
   // CasualShoes start here
 
-  let casualShoesArr = [
+   let casualShoesArr = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/11756898/2021/12/14/066bfe87-ef05-4cc9-8769-cee2a63b50b91639473787244RoadsterMenWhiteSolidSneakers1.jpg",
       "brand": "Roadster",
@@ -1474,6 +1474,7 @@ let tshirt_arr = [
 ///Fashion Accessories
 // wallets   
 
+
 let Wallets = [
   {
     "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/15214618/2021/8/21/09ead0b2-bca9-43d6-af11-96758dd051821629487558186MenBrownSolidGenuineLeatherZipAroundWallet1.jpg",
@@ -1716,7 +1717,6 @@ let Wallets = [
     "offer": "(62% OFF)"
   }
 ]
-
 //// waltes end here 
 
 ///Belt start here
