@@ -1,5 +1,5 @@
 function navbar(){
-    return `   <div class="parent-box-1">
+    return `  <div class="parent-box-1">
 
            
     <div  class="logo_div">
@@ -454,7 +454,8 @@ function navbar(){
     </div>
 </div>
 
-</div>`
+</div> `
+
 }
 
 
