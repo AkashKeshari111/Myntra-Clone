@@ -267,7 +267,7 @@ let casualTrauserARR = [
   
   
     
-    brand.innerText=el.Brand;
+    brand.innerText=el.brand;
     brand.id="brand1"
   
    
