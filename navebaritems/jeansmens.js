@@ -298,7 +298,7 @@ document.getElementById("footerDiv").innerHTML=footer();
     append_data.append(div1)
   
   
-    localStorage.setItem("tshirt",JSON.stringify(jeansArr))
+    localStorage.setItem("jeansMens",JSON.stringify(jeansArr))
     console.log("inside")
   
   })

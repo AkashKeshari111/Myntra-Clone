@@ -295,7 +295,7 @@ let casualShirt =  [
     append_data.append(div1)
   
   
-    localStorage.setItem("tshirt",JSON.stringify(casualShirt))
+    localStorage.setItem("casualShirtMens",JSON.stringify(casualShirt))
     console.log("inside")
   
   })
