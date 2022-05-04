@@ -295,7 +295,4 @@ let casualTrauserARR = [
   
   
     localStorage.setItem("casualTrauserMens",JSON.stringify(casualTrauserARR))
-    console.log("inside")
-  
   })
- 
