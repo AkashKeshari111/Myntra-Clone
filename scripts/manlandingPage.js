@@ -5,7 +5,7 @@ document.getElementById("navbar").innerHTML=navbar();
 document.getElementById("footerDiv").innerHTML=footer();
 
 
-menData=[
+let menData=[
     {
       "image": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/1dce9c3e-77fa-48f1-85a3-d3c136c1d73e1598892377652-USPA.jpg"
     },
@@ -144,16 +144,16 @@ menData=[
   ]
   
   function append (x,y ,containerid ){
-      for(let i=x ;i<y;i++){
-      let dealOntopImg=document.createElement("img")
-      dealOntopImg.style.width="95%"
-      dealOntopImg.style.marginLeft="30px"
-      dealOntopImg.style.marginRight="30px"
-     
-      dealOntopImg.src=menData[i].image
-      document.getElementById(`${containerid}`).append(dealOntopImg)
-     }
-  }
+    for(let i=x ;i<y;i++){
+    let dealOntopImg=document.createElement("img")
+    dealOntopImg.style.width="90%"
+    dealOntopImg.style.marginLeft="30px"
+    dealOntopImg.style.marginRight="30px"
+   
+    dealOntopImg.src=menData[i].image
+    document.getElementById(`${containerid}`).append(dealOntopImg)
+   }
+}
   append(0,8,"biggestdealonbrands")
   append(8,14,"categorytobag")
   append(14,19,"exploretopbrands")
