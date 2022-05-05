@@ -164,7 +164,7 @@ function navbar(){
 
 
    <div id="main_div">
-   <a id="button"  href="kids.html">KIDS</a>
+   <a id="button"  href="/LandingPageHTML/kidslandingPage.html">KIDS</a>
    <div id="akash3">
      <div id="b">
         <div class="div" id="d1">
