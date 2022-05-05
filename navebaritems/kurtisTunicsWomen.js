@@ -1,6 +1,9 @@
 import {navbar} from "../components/navbar.js"
 document.getElementById("navbar").innerHTML=navbar();
 
+import {sidebar_nav_w} from "../components/sidebar_navWomens.js"
+document.getElementById("sidebar_nav").innerHTML= sidebar_nav_w();
+
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 

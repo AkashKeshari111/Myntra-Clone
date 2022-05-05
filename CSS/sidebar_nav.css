@@ -1,0 +1,61 @@
+
+#sidebar_nav{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.xyz{
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.check_box{
+    margin-left: 20px;
+}
+
+.brand_space{
+    margin-left: 7px;
+}
+
+.btn_sidebar1,.btn_sidebar2,.btn_sidebar3,.btn_sidebar4,.btn_sidebar5,.btn_sidebar6,.btn_sidebar7{
+    margin-left: 12px;
+    width:17px;
+    height:17px;
+ 
+    border-radius:50%;
+    border:1px solid rgb(219, 219, 219);
+
+}
+
+.btn_sidebar1{
+    background-color: Blue;
+}
+
+.btn_sidebar2{
+    background-color: rgb(250, 244, 244);
+}
+
+.btn_sidebar3{
+    background-color: navy;
+}
+
+.btn_sidebar4{
+    background-color: black;
+}
+
+.btn_sidebar5{
+    background-color: green;
+}
+
+.btn_sidebar6{
+    background-color: grey;
+}
+
+.btn_sidebar7{
+    background-color: red;
+}
+
+.brand_space>a{
+    text-decoration: none;
+    color: black;
+
+}
