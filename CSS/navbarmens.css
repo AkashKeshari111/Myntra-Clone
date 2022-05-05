@@ -70,7 +70,7 @@ margin-left: 45px;
 }
 
 
-#append_data{
+#append_data,#a1,#a2,#a3{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
