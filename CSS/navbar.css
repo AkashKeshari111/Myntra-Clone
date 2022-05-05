@@ -114,6 +114,7 @@ body{
 
     justify-content: space-evenly;
     width: 250px;
+    align-items: center;
     text-align: center;
 
 
@@ -139,7 +140,8 @@ body{
 #i1{
     font-size: 20px;
     color:rgb(235, 53, 144);
-    margin-bottom:-26px;
+    margin-bottom:9px;
+    
   
 }
 
@@ -149,6 +151,7 @@ body{
     /* border:1px solid red; */
     width: 25px;
     height: 25px;
+    margin-bottom: -20px;
 }
 
 #main_div{
@@ -174,7 +177,7 @@ body{
     color:hotpink;
 }
 
-#akash1,#akash2,#akash3,#akash4,#akash5{
+#akash1,#akash2,#akash3,#akash4,#akash5,#akash7{
     background-color:white;
     /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
@@ -190,7 +193,7 @@ body{
     /* border:1px solid red; */
     /* margin-left: -50px; */
     
-    margin-top: 29px;
+    margin-top: 32px;
 }
 
 #akash1{
@@ -213,6 +216,57 @@ body{
 
     margin-left: -290px;
 }
+
+#akash7{
+    margin-left: -150px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+#ls{
+    margin-left:15px;
+    background-color: white;
+    color:hotpink;
+    font-weight: 600;
+    height:40px;
+    border:1px solid rgb(233, 233, 233);
+}
+
+#ls:hover{
+    border:1px solid hotpink;
+    transition:.5s;
+}
+
+#lp{
+    margin-left:15px;
+}
+
+#lh5{
+  text-align: left;
+  padding-left:15px;
+ 
+}
+#lh5:hover{
+    color:hotpink;
+}
+
+#insider_span{
+    background-color: rgb(247, 74, 160);
+    color:white;
+    border:0;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 0px 5px 5px 5px;
+      
+}
+
+/* #profile_tag{
+    text-decoration: none;
+    font-size: 14px;
+    color:black;
+} */
+
+
 #main_div:hover div{
     visibility: visible;
     opacity:1;
@@ -294,5 +348,21 @@ ul>li>a:hover{
 #b{
     margin-right: 40px;
     margin-bottom: 20px;
+    /* margin-top:20px; */
 }
 
+#profile_tag>a{
+   font-size: 14px;
+    color:black;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 2px;
+    
+}
+#profile_tag{
+    margin-top: 25px;
+}
+
+#count_wish,#count_cart{
+    font-size:10px;
+}
