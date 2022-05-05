@@ -330,7 +330,7 @@ function navbar(){
 
 
 <div id="main_div">
-<a id="button"  href="beauty.html">BEAUTY</a>
+<a id="button"  href="/LandingPageHTML/beautylandingPage.html">BEAUTY</a>
 <div id="akash5" >
   <div id="b">
      <div class="div" id="d1">

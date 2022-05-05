@@ -88,7 +88,7 @@ body{
 
 
 .div1>span{
-  border-right: 3px solid grey;
+  /* border-right: 3px solid grey; */
   margin-left: -370px;
   text-align:center;
   cursor:pointer;
@@ -96,13 +96,14 @@ body{
 }
 
 #search{
-    height: 30px;
-    width: 330px;
+    height: 32px;
+    width: 340px;
     border-radius: 5px;
     background-color: rgb(247, 247, 252);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
     padding-left: 50px;
     border-left: 1px solid grey;
+    border:0;
 }
 
 #search:focus{
