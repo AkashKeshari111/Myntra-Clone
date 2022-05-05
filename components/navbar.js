@@ -445,7 +445,7 @@ function navbar(){
 
         <div id="main_div">
         <a href=""><img id="profile" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNw2ZwtyLy4U7-0mPjr0kNjDSN5leut6jg0g&usqp=CAU"></a>
-        <h5><a id="profile_tag" href="#">Profile</a></h5>
+        <h5 id="profile_tag"><a  href="#">Profile</a></h5>
         <div id="akash7">
           <div id="b">
              <div class="div" id="d1">
@@ -493,12 +493,12 @@ function navbar(){
     </div>
 
     <div>
-        <a href="#"><i class="fa-solid fa-heart font"  id="i1">&nbsp;1</i></a>
+        <a href="#"><i class="fa-solid fa-heart font"  id="i1"><span id="count_wish">&nbsp;1<span></i></a>
       <h5><a href="#">Whishlist</a></h5>  
     </div>
 
     <div>
-      <a id="count" href="#">  <i class="fa-solid fa-bag-shopping font " id="i1">&nbsp;10</i></a>
+      <a id="count" href="#">  <i class="fa-solid fa-bag-shopping font " id="i1"><span  id="count_cart">&nbsp;10</span></i></a>
         <h5>  <a href="#">Bag</a></h5>
     </div>
 </div>

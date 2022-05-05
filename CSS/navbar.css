@@ -114,6 +114,7 @@ body{
 
     justify-content: space-evenly;
     width: 250px;
+    align-items: center;
     text-align: center;
 
 
@@ -139,7 +140,8 @@ body{
 #i1{
     font-size: 20px;
     color:rgb(235, 53, 144);
-    margin-bottom:-26px;
+    margin-bottom:9px;
+    
   
 }
 
@@ -149,6 +151,7 @@ body{
     /* border:1px solid red; */
     width: 25px;
     height: 25px;
+    margin-bottom: -20px;
 }
 
 #main_div{
@@ -217,7 +220,7 @@ body{
 #akash7{
     margin-left: -150px;
     text-align: left;
-
+    margin-top: -5px;
 }
 
 #ls{
@@ -257,7 +260,11 @@ body{
       
 }
 
-
+/* #profile_tag{
+    text-decoration: none;
+    font-size: 14px;
+    color:black;
+} */
 
 
 #main_div:hover div{
@@ -344,3 +351,16 @@ ul>li>a:hover{
     /* margin-top:20px; */
 }
 
+#profile_tag>a{
+   font-size: 14px;
+    color:black;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 2px;
+    
+}
+
+
+#count_wish,#count_cart{
+    font-size:10px;
+}
