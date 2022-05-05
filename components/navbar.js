@@ -3,13 +3,13 @@ function navbar(){
 
            
     <div  class="logo_div">
-      <a href="index.html"> <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS357fHYAnvyZIqrnolaRs3MlCQO7PyKngEag&usqp=CAU"/></a> 
+      <a href="/LandingPageHTML/index.html"> <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS357fHYAnvyZIqrnolaRs3MlCQO7PyKngEag&usqp=CAU"/></a> 
     </div>
 
    <div class="menu_div">
        
         <div id="main_div">
-              <a id="button"  href="#">MENS</a>
+              <a id="button"  href="/LandingPageHTML/menlandingPage.html">MENS</a>
             <div id="akash1">
               <div id="b">
                  <div class="div" id="d1">
@@ -91,7 +91,7 @@ function navbar(){
 
 
        <div id="main_div">
-       <a id="button"  href="/">WOMENS</a>
+       <a id="button"  href="/LandingPageHTML/womanlandingPage.html">WOMENS</a>
        <div id="akash2">
          <div id="b">
             <div class="div" id="d1">

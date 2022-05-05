@@ -220,7 +220,7 @@ body{
 #akash7{
     margin-left: -150px;
     text-align: left;
-    margin-top: -5px;
+    margin-top: 10px;
 }
 
 #ls{
@@ -359,7 +359,9 @@ ul>li>a:hover{
     line-height: 2px;
     
 }
-
+#profile_tag{
+    margin-top: 25px;
+}
 
 #count_wish,#count_cart{
     font-size:10px;
