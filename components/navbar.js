@@ -438,13 +438,62 @@ function navbar(){
 
 <div id="other_div">
     <div>
- <a href=""><img id="profile" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNw2ZwtyLy4U7-0mPjr0kNjDSN5leut6jg0g&usqp=CAU"></a>
+ 
    
-        <h5><a href="#">Profile</a></h5>
+     
+
+
+        <div id="main_div">
+        <a href=""><img id="profile" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNw2ZwtyLy4U7-0mPjr0kNjDSN5leut6jg0g&usqp=CAU"></a>
+        <h5><a id="profile_tag" href="#">Profile</a></h5>
+        <div id="akash7">
+          <div id="b">
+             <div class="div" id="d1">
+                 <h5 id="lh5">Welcome</h5>
+                 <p id="lp">To access account and manage order</p>
+                 <button id="ls">LOGIN / SIGNUP</button>
+                 <br>
+                 <hr>
+                     <ul>
+                        <li><a href="/nav_itemsHTML/bedRunnerHome.html">Order</a></li>
+                        <li><a href="/nav_itemsHTML/mattressHome.html">Wishlist</a></li>
+                         <li><a href="#">Gift card</a></li>
+                         <li><a href="#">Contact us</a></li>
+                          <li><a href="#">Myntra Insider <button id="insider_span">New</button></a></li>
+                      
+                     </ul>
+                    
+                    <hr>
+
+                  <ul>
+                         <li><a href="/nav_itemsHTML/bedRunnerHome.html">Myntra credit</a></li>
+                           <li><a href="/nav_itemsHTML/mattressHome.html">Coupons</a></li>
+                         <li><a href="#">Saved cards</a></li>
+                         <li><a href="#">Saved Address</a></li
+                 </ul>
+                    
+
+
+                     </div>
+                    
+            
+       
+           
+         </div>
+        </div>
+        </div>
+        
+
+
+
+
+
+
+
     </div>
 
     <div>
-        <a href="#"><i class="fa-solid fa-heart font"  id="i1"></i></a>
+        <a href="#"><i class="fa-solid fa-heart font"  id="i1">&nbsp;1</i></a>
       <h5><a href="#">Whishlist</a></h5>  
     </div>
 
