@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let Shirts = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/17059980/2022/2/5/e702aa94-661a-4728-88f4-0e01fd80c2c01644046193591CrimsouneClubBoysBluePrintedCasualShirt1.jpg",

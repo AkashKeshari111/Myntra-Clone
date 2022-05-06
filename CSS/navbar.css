@@ -1,9 +1,14 @@
+
+
+
+
+
+
 body{
     margin: auto;
     /* font-family: Whitney,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif; */
 
 }
-
 
 #nav_up{
     /* border: 1px solid red; */
@@ -33,7 +38,13 @@ body{
     
 }
 
-
+/* .sticky {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+   
+  } */
 
 .parent-box-1{
     /* border:1px solid blue; */

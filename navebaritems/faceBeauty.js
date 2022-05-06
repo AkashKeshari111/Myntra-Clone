@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let Face =[
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/13509854/2021/4/13/28434eb8-28a1-4d70-ba28-290bb424d5231618311009851-Olay-Women-Face-Moisturisers-1601618311009637-1.jpg",

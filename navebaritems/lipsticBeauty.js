@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let Lipstick = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/11178082/2020/1/13/22d48310-290a-429b-8534-db884cde683f1578907784720-Maybelline-New-York-Sensational-03-Flush-It-Red-Liquid-Matte-1.jpg",

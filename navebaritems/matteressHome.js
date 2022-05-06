@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let Mattress = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/productimage/2021/6/15/6d315a47-56d0-47f0-bdcb-058e5faa5d691623742292125-1.jpg",

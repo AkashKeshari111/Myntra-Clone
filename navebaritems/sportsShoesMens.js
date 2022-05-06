@@ -5,6 +5,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let SportsShoesArr = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/8058351/2022/1/4/5c0a11c6-3193-43d1-99ad-067b264b8cf61641295613595-HRX-by-Hrithik-Roshan-Men-Black-Urban-Outdoor-Running-Shoe-4-1.jpg",

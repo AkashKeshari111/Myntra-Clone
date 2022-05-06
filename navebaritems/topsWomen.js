@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let Tops = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/11364258/2020/1/31/899b523a-f57a-48fb-80cd-8422614f195d1580451588210-SASSAFRAS-Women-Green--Beige-Printed-Blouson-Top-49515804515-1.jpg",

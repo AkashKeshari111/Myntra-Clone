@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let  Brief = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/14917772/2021/10/28/6de2ffb2-a122-437e-867d-c9108f8a13011635422092997DressBerryWomenPackof3PureCottonHipsterBriefsDB-PRT-BIK-NEW-1.jpg",

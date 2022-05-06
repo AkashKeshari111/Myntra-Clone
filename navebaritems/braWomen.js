@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let Bra = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/8475743/2019/4/4/e33218ab-48be-441e-a9b7-e0ae157ceed71554375840623-HRX-by-Hrithik-Roshan-Charcoal-Solid-Non-Wired-Lightly-Padde-1.jpg",

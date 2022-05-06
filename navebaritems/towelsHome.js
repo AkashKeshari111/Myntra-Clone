@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let Towels = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/2127325/2018/6/11/4891d48d-e3ef-486e-8396-7efa735923a61528700077208-swiss-republic-Set-of-6-Cotton-450-GSM-Towels-9511528700077109-1.jpg",

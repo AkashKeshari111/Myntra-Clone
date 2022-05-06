@@ -5,6 +5,10 @@ import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let KurtasSuits = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/13962098/2021/4/14/877b6542-dc0b-4352-bf9a-2e200ba068181618405391945DeewaPrintedPinkA-LineDressKurtaSetsZIYAAWomenKurtaSetsZIYAA6.jpg",

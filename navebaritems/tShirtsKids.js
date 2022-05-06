@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+// import{sticky1} from "../components/sticky.js"
+
+// sticky1()
+
 let TShirts = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/15362120/2021/9/4/81a36d9e-49a0-41df-88b4-2690245d73d11630771947898HELLCATBoysBurgundyTypography2PrintedT-shirt1.jpg",

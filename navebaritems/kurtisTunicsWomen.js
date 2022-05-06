@@ -7,6 +7,10 @@ document.getElementById("sidebar_nav").innerHTML= sidebar_nav_w();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let KurtisTunics = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/13647612/2021/3/2/ae01b413-6d60-4f2f-a851-24bf78ae0a801614675775880-Varanga-Pink-Floral-And-Bird-Printed-Crop-Top-With-Puff-Slee-1.jpg",

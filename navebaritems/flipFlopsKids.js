@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let Flipflops = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/16201630/2021/12/28/586271e0-d25d-401d-b0f1-896ab2e65d8c1640693364033-Crocs-Unisex-Kids-Sandals-8611640693363462-1.jpg",
