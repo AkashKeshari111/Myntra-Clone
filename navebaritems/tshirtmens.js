@@ -249,7 +249,7 @@ tshirt_arr.map(function(el){
   img.id="img1"
 
 
-
+  let div4=document.createElement("div")
 
   
   brand.innerText=el.Brand;
@@ -274,19 +274,33 @@ tshirt_arr.map(function(el){
   
   div3.append(price,MP,off)
   div2.append(div3)
-  div1.append(img,brand,type,div2)
+  div4.append(brand,type)
+  div1.append(img,div4,div2)
 
   append_data.append(div1)
 
 
 
   div1.addEventListener("mouseover",function(event){
-    brand.innerText="juhuui"
+    let div5=document.createElement("div")
+    div5.id="div5"
+    brand.innerText="Whishlist"
     brand.style.paddingLeft="40px"
+    brand.style.border="1px solid red"
+    type.innerText="size: 28,30,32"
+    type.style.paddingLeft="40px"
+    //  div5.style.border="1px solid red"
+    div5.append(brand,type)
+    div4.append(div5)
+
+
   })
   div1.addEventListener("mouseout",function(event){
     brand.innerHTML=el.Brand
+
     brand.style.paddingLeft="10px"
+    type.innerText=el.type
+    type.style.paddingLeft="10px"
   })
 
 
