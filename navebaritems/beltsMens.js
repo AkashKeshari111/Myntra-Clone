@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let Belts = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/13749634/2021/3/9/1f9bf3e7-5da0-43d5-9a48-23ffd95d45f31615280726428-United-Colors-of-Benetton-Men-Belts-121615280725858-1.jpg",

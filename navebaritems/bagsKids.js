@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let Bags  = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/16343552/2022/3/3/878f12b7-087c-47a6-aa14-33309763cc8c1646299241258-Puma-Unisex-Kids-Backpacks-2141646299240492-1.jpg",

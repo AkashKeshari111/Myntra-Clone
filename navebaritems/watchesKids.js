@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+// import{sticky1} from "../components/sticky.js"
+
+// sticky1()
+
 let Watches = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/17016076/2022/2/2/3678f0f5-cb6b-4fb6-a507-f6bb5a3153b51643794698709KoolKidzUnisexKidsMulticolouredBrassPrintedDialGreenStrapsAn1.jpg",

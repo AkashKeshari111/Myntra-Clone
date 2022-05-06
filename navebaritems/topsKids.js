@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let Tops = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/17366470/2022/3/3/01880ee6-846a-407b-aeb4-6446518de7651646316753058Printedtop1.jpg",

@@ -4,6 +4,11 @@ document.getElementById("navbar").innerHTML=navbar();
   import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+
+// import{sticky1} from "../components/sticky.js"
+
+// sticky1()
+
   
 
 const Home = [

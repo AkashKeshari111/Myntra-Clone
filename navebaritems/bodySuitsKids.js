@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let Bodysuits = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/17261666/2022/4/20/6f37f0c4-380f-4596-a4fa-f8153966906d1650449000330BUMZEEInfantGirlsPeachWhitePrintedPureCottonBodysuitwithHair1.jpg",

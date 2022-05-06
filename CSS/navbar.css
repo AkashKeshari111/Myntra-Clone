@@ -4,6 +4,8 @@ body{
 }
 
 
+
+  
 #nav_up{
     /* border: 1px solid red; */
     width: 100%;
@@ -26,7 +28,13 @@ body{
     
 }
 
-
+/* .sticky {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+   
+  } */
 
 .parent-box-1{
     /* border:1px solid blue; */

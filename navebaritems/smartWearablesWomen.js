@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let SmartWearables = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/14858178/2021/7/23/fed66508-7823-41f7-ab0e-54643ab2ea141627049284831-AMAZFIT-GTS-2e-SMART-WATCH-MOSS-GREEN-2771627049284631-1.jpg",

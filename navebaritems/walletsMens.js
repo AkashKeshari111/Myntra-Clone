@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+// import{sticky1} from "../components/sticky.js"
+
+// sticky1()
+
 let Wallets = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/15214618/2021/8/21/09ead0b2-bca9-43d6-af11-96758dd051821629487558186MenBrownSolidGenuineLeatherZipAroundWallet1.jpg",

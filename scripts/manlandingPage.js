@@ -5,6 +5,12 @@ document.getElementById("navbar").innerHTML=navbar();
 document.getElementById("footerDiv").innerHTML=footer();
 
 
+
+// import{sticky1} from "../components/sticky.js"
+
+// sticky1()
+
+
 let menData=[
     {
       "image": "https://assets.myntassets.com/w_245,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/31/1dce9c3e-77fa-48f1-85a3-d3c136c1d73e1598892377652-USPA.jpg"

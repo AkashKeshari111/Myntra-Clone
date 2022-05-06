@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let Flats = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/10332219/2019/8/30/faba247e-5f1b-4694-801e-b18129c33ddd1567172536837-Taavi-Women-Rust-Coloured-Printed-Mules-151567172535985-1.jpg",

@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
 let SmartWearables1 = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/14923600/2021/7/24/0ee445ce-82e0-4ce5-996d-3bc060141a0d1627105195230FitbitLuxeBlackGraphiteStainlessSteel1.jpg",

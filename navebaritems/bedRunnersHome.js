@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
  let BedRunners = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/17454350/2022/3/9/c48c35b7-6e97-4567-af15-af4cca4d6b661646823241939Runners1.jpg",

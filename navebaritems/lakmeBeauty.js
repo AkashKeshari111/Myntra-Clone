@@ -4,6 +4,10 @@ document.getElementById("navbar").innerHTML=navbar();
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+import{sticky1} from "../components/sticky.js"
+
+sticky1()
+
   let Lakme = [
     {
       "image": "https://assets.myntassets.com/h_560,q_90,w_420/v1/assets/images/11629082/2022/5/4/e6bfd58f-f4f4-45ca-911d-e84d5eebfaef1651646980985-Lakme-Insta-Liner---Black-9ml-3461651646980759-1.jpg",
