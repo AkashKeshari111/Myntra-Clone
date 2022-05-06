@@ -1,8 +1,10 @@
-import {navbar} from "../components/navbar.js"
+import {navbar ,searchFunction} from "../components/navbar.js"
 document.getElementById("navbar").innerHTML=navbar();
 
   import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
+
+searchFunction()
 
       
    let womenData =[

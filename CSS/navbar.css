@@ -32,6 +32,33 @@ body{
     position: fixed;
     
 }
+#two
+{
+
+    background-color: #f7f7fc;
+    display: inline-block;
+    height: 288px;
+    position: absolute;
+    top: 60px;
+    width: 340px;
+    height: auto;
+    /* height: 340px; */
+    max-height: 340px;
+    margin-left: -40px;
+    z-index: 1;
+    overflow:hidden;
+    border: black;
+    
+}
+#result{
+    list-style: none;
+      padding: 15px 4px 5px 12px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      border-bottom-right-radius: 30px;
+      border-bottom-left-radius: 30px;
+  }
 
 
 
