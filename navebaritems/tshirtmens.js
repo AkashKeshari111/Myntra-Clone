@@ -236,6 +236,8 @@ tshirt_arr.map(function(el){
   let div1=document.createElement("div")
   let img=document.createElement("img")
   let brand=document.createElement("h3")
+
+
   let type=document.createElement("p")
   let price=document.createElement("p")
   let MP=document.createElement("s")
@@ -245,6 +247,7 @@ tshirt_arr.map(function(el){
   div1.id="inner_div"
   img.src=el.image;
   img.id="img1"
+
 
 
 
@@ -276,11 +279,22 @@ tshirt_arr.map(function(el){
   append_data.append(div1)
 
 
+
+  div1.addEventListener("mouseover",function(event){
+    brand.innerText="juhuui"
+    brand.style.paddingLeft="40px"
+  })
+  div1.addEventListener("mouseout",function(event){
+    brand.innerHTML=el.Brand
+    brand.style.paddingLeft="10px"
+  })
+
+
+
   localStorage.setItem("tshirtMens",JSON.stringify(tshirt_arr))
   console.log("inside")
 
 })
-
 
 
 
