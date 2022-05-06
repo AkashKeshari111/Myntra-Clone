@@ -3,12 +3,14 @@ body{
 
 }
 
-
-#nav_up{
+.nav_up{
     /* border: 1px solid red; */
     width: 100%;
-    height: auto;
-  
+    height:100px;
+    top:0;
+    position:fixed;
+    /* overflow:visible; */
+    z-index: 1;
 
 }
 
@@ -23,10 +25,7 @@ body{
     width:100%;
     justify-content: center;
     align-items: center;
-    top:0;
-    position:fixed;
-    overflow:hidden;
-    z-index: 10;
+  
     
 }
 
@@ -34,11 +33,11 @@ body{
 
 .parent-box-1{
     /* border:1px solid blue; */
-    margin-left: 40px;
+    margin-left:2%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: max-content;
+    width:50%;
     height:auto;
 }
 .logo_div{
@@ -81,11 +80,11 @@ body{
 
 .parent-box-2{
     /* border:1px solid red; */
-    margin-left:70px;
+    /* margin-left:5%; */
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
+    width: 50%;
     height: 100%;
 
 }
@@ -112,6 +111,7 @@ body{
 
 #search:focus{
     background-color: white;
+
 }
 
 
