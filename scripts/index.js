@@ -1,10 +1,12 @@
-import {navbar} from "../components/navbar.js"
-document.getElementById("navbar").innerHTML=navbar();
+import { navbar ,searchFunction } from "../components/navbar.js";
+document.getElementById("navbar").innerHTML = navbar();
 
-  import { footer } from "../components/footer.js";
-document.getElementById("footerDiv").innerHTML=footer();
+import { footer } from "../components/footer.js";
+document.getElementById("footerDiv").innerHTML = footer();
 
-  
+searchFunction()
+
+
 
 const Home = [
   {
@@ -990,7 +992,7 @@ function append(x, y, containerid) {
     let dealOntopImg = document.createElement("img");
     dealOntopImg.style.width = "100%";
     dealOntopImg.src = Home[i].image;
-    
+
     document.getElementById(`${containerid}`).append(dealOntopImg);
   }
 }
