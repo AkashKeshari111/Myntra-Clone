@@ -1,5 +1,5 @@
 
-import {navbar} from "../components/navbar.js"
+import {navbar,searchFunction} from "../components/navbar.js"
 document.getElementById("navbar").innerHTML=navbar();
 
 import {sidebar_nav} from "../components/sidebar_navMens.js"
@@ -8,6 +8,7 @@ document.getElementById("sidebar_nav").innerHTML=sidebar_nav();
 
 import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
+searchFunction();
 
 let Beauty = [
     {

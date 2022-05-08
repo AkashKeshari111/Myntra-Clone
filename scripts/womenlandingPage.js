@@ -1,9 +1,10 @@
-import {navbar} from "../components/navbar.js"
+import {navbar,searchFunction} from "../components/navbar.js"
 document.getElementById("navbar").innerHTML=navbar();
 
   import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+searchFunction();
       
    let womenData =[
         {
@@ -146,22 +147,27 @@ document.getElementById("footerDiv").innerHTML=footer();
         }
       ]
          
-      function append (x,y ,containerid ){
+      function append (x,y ,containerid,pagename ){
           for(let i=x ;i<y;i++){
           let dealOntopImg=document.createElement("img")
           dealOntopImg.style.width="90%"
           dealOntopImg.style.marginLeft="30px"
           dealOntopImg.style.marginRight="30px"
-         
           dealOntopImg.src=womenData[i].image
-          document.getElementById(`${containerid}`).append(dealOntopImg)
+
+          let linkEd=document.createElement("a")
+          linkEd.append(dealOntopImg)
+          linkEd.href=`/nav_itemsHTML/${pagename}.html`
+
+         
+          document.getElementById(`${containerid}`).append(linkEd)
          }
       }
-      append(0,10,"biggestdealonbrands")
-      append(10,16,"categorytobag")
-      append(16,21,"exploretopbrands")
-      append(23,27,"myntraluxe")
-      append(27,32,"indianwear")
-      append(32,37,"sportswear")
-      append(37,42,"footwear")
-      append(42,47,"ACCESSORIES")
+      append(0,10,"biggestdealonbrands","topWomen")
+      append(10,16,"categorytobag","topWomen")
+      append(16,21,"exploretopbrands","faceBeauty")
+      append(23,27,"myntraluxe","topWomen")
+      append(27,32,"indianwear","flatsWomen")
+      append(32,37,"sportswear","lipsticBeauty")
+      append(37,42,"footwear","lipsticBeauty")
+      append(42,47,"ACCESSORIES","faceBeauty")

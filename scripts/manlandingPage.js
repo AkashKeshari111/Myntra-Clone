@@ -1,9 +1,10 @@
-import {navbar} from "../components/navbar.js"
+import {navbar,searchFunction} from "../components/navbar.js"
 document.getElementById("navbar").innerHTML=navbar();
 
   import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+searchFunction();
 
 let menData=[
     {
@@ -143,22 +144,25 @@ let menData=[
     }
   ]
   
-  function append (x,y ,containerid ){
+  function append (x,y ,containerid,pagename ){
     for(let i=x ;i<y;i++){
     let dealOntopImg=document.createElement("img")
     dealOntopImg.style.width="90%"
     dealOntopImg.style.marginLeft="30px"
     dealOntopImg.style.marginRight="30px"
-   
     dealOntopImg.src=menData[i].image
-    document.getElementById(`${containerid}`).append(dealOntopImg)
+    let linkEd=document.createElement("a")
+    linkEd.append(dealOntopImg)
+    linkEd.href=`/nav_itemsHTML/${pagename}.html`
+   
+    document.getElementById(`${containerid}`).append(linkEd)
    }
 }
-  append(0,8,"biggestdealonbrands")
-  append(8,14,"categorytobag")
-  append(14,19,"exploretopbrands")
-  append(19,25,"myntraluxe")
-  append(25,30,"indianwear")
-  append(30,35,"sportswear")
-  append(35,40,"footwear")
-  append(40,45,"ACCESSORIES")
+  append(0,8,"biggestdealonbrands","insideMens")
+  append(8,14,"categorytobag","inShirt")
+  append(14,19,"exploretopbrands","casualTrauser")
+  append(19,25,"myntraluxe","tshirtMens")
+  append(25,30,"indianwear","tshirtMens")
+  append(30,35,"sportswear","jeansMens")
+  append(35,40,"footwear","casualShoesMens")
+  append(40,45,"ACCESSORIES","sportsShoesMens")

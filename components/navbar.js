@@ -1,5 +1,5 @@
-function navbar(){
-    return `    <div class="parent-box-1">
+function navbar() {
+  return `    <div class="parent-box-1">
 
            
     <div  class="logo_div">
@@ -248,7 +248,7 @@ function navbar(){
 
 
 <div id="main_div">
-<a id="button"  href="h&l.html">HOME & LIVING</a>
+<a id="button"  href="/LandingPageHTML/HomeLandingPage.html">HOME & LIVING</a>
 <div id="akash4">
   <div id="b">
      <div class="div" id="d1">
@@ -417,10 +417,10 @@ function navbar(){
       
 
 
-      
-        <a  id="button"  href="studio.html">STUDIO</a>
+<div id="main_div">      
+<a  id="button"  href="/LandingPageHTML/studio.html">STUDIO<sup>New</sup></a>
    </div>
-
+</div>
 
 
 </div>
@@ -432,7 +432,8 @@ function navbar(){
     <input  type="text" name="" id="search" placeholder="Search for products, brands and more">
     
         <span><i class="fa-solid fa-magnifying-glass">&nbsp;</i></span> 
-    
+        
+        <div id="two" ></div>
 
 </div>
 
@@ -444,19 +445,19 @@ function navbar(){
 
 
         <div id="main_div">
-        <a href=""><img id="profile" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNw2ZwtyLy4U7-0mPjr0kNjDSN5leut6jg0g&usqp=CAU"></a>
+        <a href=""><i class="fa-solid fa-user"  id="i2" ></i></a>
         <h5 id="profile_tag"><a  href="#">Profile</a></h5>
         <div id="akash7">
           <div id="b">
              <div class="div" id="d1">
                  <h5 id="lh5">Welcome</h5>
                  <p id="lp">To access account and manage order</p>
-                 <button id="ls">LOGIN / SIGNUP</button>
+                 <button id="ls"><a id="logincss"href="/login/login.html">LOGIN / SIGNUP</a></button>
                  <br>
                  <hr>
                      <ul>
                         <li><a href="/nav_itemsHTML/bedRunnerHome.html">Order</a></li>
-                        <li><a href="/nav_itemsHTML/mattressHome.html">Wishlist</a></li>
+                        <li><a href="/cart/wishlist.html">Wishlist</a></li>
                          <li><a href="#">Gift card</a></li>
                          <li><a href="#">Contact us</a></li>
                           <li><a href="#">Myntra Insider <button id="insider_span">New</button></a></li>
@@ -493,21 +494,149 @@ function navbar(){
     </div>
 
     <div>
-        <a href="#"><i class="fa-solid fa-heart font"  id="i1"><span id="count_wish">&nbsp;1<span></i></a>
-      <h5><a href="#">Whishlist</a></h5>  
+        <a href="/cart/wishlist.html"><i class="fa-solid fa-heart font"  id="i1"><span id="count_wish">&nbsp;<span></i></a><br>
+      <a id="wishlist_tag" href="/cart/wishlist.html">Whishlist</a>
     </div>
 
     <div>
-      <a id="count" href="#">  <i class="fa-solid fa-bag-shopping font " id="i1"><span  id="count_cart">&nbsp;10</span></i></a>
-        <h5>  <a href="#">Bag</a></h5>
+      <a id="count" href="/cart/bag.html">  <i class="fa-solid fa-bag-shopping font " id="i1"><span  id="count_cart">&nbsp;</span></i></a>
+       <br>  <a id="cart_tag" href="/cart/bag.html">Bag</a>
     </div>
 </div>
 
 </div> 
 
-`
-
+`;
 }
 
+let searchFunction = () => {
+  let searchData1 = [
+    { Title:  "Belts", Path: "/nav_itemsHTML/beltsMens.html" },
+   
+    { Title:  "Beauty Products Womens", Path: "/nav_itemsHTML/lakmeBeauty.html" },
+    { Title:  "Lipstic Women", Path: "/nav_itemsHTML/lipsticBeauty.html" },
+    { Title:  "Kurta Woman", Path: "/nav_itemsHTML/kurtaSuitsWomen.html" },
+    { Title:"Kurti Tunic Woman",  Path: "/nav_itemsHTML/kurtisTunicWomen.html" },
+    { Title: "Shampoo",  Path: "/nav_itemsHTML/shampooBeauty.html" },
+    { Title:"Bra Women",  Path: "/nav_itemsHTML/braWomen.html" },
+    { Title:"Briefs Women",  Path: "/nav_itemsHTML/briefWomen.html" },
+    { Title:  "Home -Aromas", Path: "/nav_itemsHTML/aromasHome.html" },
+    { Title:"Bags Kids",  Path: "/nav_itemsHTML/bagsKids.html" },
+    { Title:"Face Beauty Women",  Path: "/nav_itemsHTML/faceBeauty.html" },
+    { Title: "Flip-flop Kids", Path: "/nav_itemsHTML/flipFlopKids.html" },
 
- export {navbar} 
+    { Title:"Womens Briefs",  Path: "/nav_itemsHTML/briefWomen.html" },
+    { Title:"Womens Bra",  Path: "/nav_itemsHTML/braWomen.html" },
+    { Title:"Womens Sports Shoes",  Path: "/nav_itemsHTML/sportsShoesMens.html" },
+    { Title:"Mens Sports Shoes",  Path: "/nav_itemsHTML/sportsShoesMens.html" },
+    { Title:"Mens Shoes",  Path: "/nav_itemsHTML/sportsShoesMens.html" },
+    { Title:"Womens Shoes",  Path: "/nav_itemsHTML/sportsShoesMens.html" },
+    { Title: "Mens Shoes", Path: "/nav_itemsHTML/sportsShoesMens.html" },
+    { Title: "Womens Wallet", Path: "/nav_itemsHTML/walletsMens.html" },
+    { Title:"Mens Wallet",  Path: "/nav_itemsHTML/walletsMens.html" },
+    { Title:"Womens Tshirts",  Path: "/nav_itemsHTML/topWomen.html" },
+    { Title: "Mens Tshirts",  Path: "/nav_itemsHTML/tshirtMens.html" },
+    { Title:"Womens Shirts",  Path: "/nav_itemsHTML/topWomen.html" },
+    { Title:"Shirts Kids ",  Path: "/nav_itemsHTML/shirtsKids.html" },
+    { Title:"Studio ",  Path: "/LandingPageHTML/studio.html" },
+
+    { Title:"Shirts Casual Men ",  Path: "/nav_itemsHTML/casualshirtMens.html" },
+    { Title:"TOP  Brands",   Path: "/nav_itemsHTML/casualshirtMens.html" },
+    { Title: "Jeans Top Brands",  Path: "/nav_itemsHTML/jeansMens.html" },
+    { Title:"Jeans For Kids",  Path: "/nav_itemsHTML/dresesKids.html" },
+
+    { Title:"Jeans For Women",  Path: "/nav_itemsHTML/dressesWomen.html" },
+    { Title:"Plants Home",  Path: "/nav_itemsHTML/plantsHome.html" },
+    { Title:"Jeans For Man", Path: "/nav_itemsHTML/jeansMens.html" },
+    { Title:"Shoes Top Brands",  Path: "/nav_itemsHTML/casualShoesMens.html" },
+    { Title:"Shoes For Kids",  Path: "/nav_itemsHTML/dresesKids.html" },
+    { Title: "Shoes For Women",  Path: "/nav_itemsHTML/casualShoesWomen.html" },
+    { Title: "Shoes For Man",  Path: "/nav_itemsHTML/casualShoesMens.html" },
+
+    { Title: "Shirts For Summer", Path: "/nav_itemsHTML/shirtsKids.html" },
+    { Title:"Shirts For Couples",  Path: "/nav_itemsHTML/shirtsKids.html" },
+    { Title: "Kids Watches",  Path: "/nav_itemsHTML/watchesKids.html" },
+    { Title: "Shirts For Kids",  Path: "/nav_itemsHTML/dresesKids.html" },
+    { Title: "Shirts For Man", Path: "/nav_itemsHTML/casualshirtMens.html" },
+    { Title: "Flats Women", Path: "/nav_itemsHTML/flatsWomen.html" },
+    { Title: "Casual Trouser", Path: "/nav_itemsHTML/casualTrauser.html" },
+    { Title: "Bed Runner Home", Path: "/nav_itemsHTML/bedRunnerHome.html" },
+   
+ 
+    { Title: "Towel", Path: "/nav_itemsHTML/towelHome.html" },
+    { Title: "Mattress", Path: "/nav_itemsHTML/mattressHome.html" },
+    { Title: "Men", Path: "/LandingPageHTML/menlandingPage.html" },
+    { Title: "Women", Path: "/LandingPageHTML/womanlandingPage.html" },
+    { Title: "Home and Living", Path: "/LandingPageHTML/LandingPage.html" },
+    { Title: "Tops Women ", Path: "/nav_itemsHTML/topWomen.html" },  
+ 
+  ];
+
+  document.getElementById("search").addEventListener("input", debounce);
+
+  let id;
+  function FinalSearch() {
+    let value = document.getElementById("search").value;
+    console.log(value);
+  
+
+    var arr = [];
+    // let count = 0;
+    for (let i = 0; i < searchData1.length && value.length > 0; i++) {
+      let searchData= searchData1[i].Title
+      // console.log(searchData)
+      if (
+        searchData[0].toLowerCase() == value[0].toLowerCase() &&
+        searchData[1] == value[1] &&
+        searchData[2] == value[2]
+      ) {
+        arr.push(searchData1[i]);
+      } else if (
+        searchData[0].toLowerCase() == value[0].toLowerCase() &&
+        searchData[1] == value[1] &&
+        value.length == 2
+      ) {
+        arr.push(searchData1[i]);
+      } else if (
+        searchData[0].toLowerCase() == value[0].toLowerCase() &&
+        value.length == 1
+      ) {
+        arr.push(searchData1[i]);
+      }
+    }
+
+    arr = arr.reverse();
+    document.getElementById("two").innerText = null;
+    arr.forEach(function (el) {
+      let result = document.createElement("div");
+      result.setAttribute("id", "result");
+      let resultlink = document.createElement("a");
+      resultlink.style.textDecoration = "none";
+      resultlink.style.cursor = "pointer";
+      resultlink.innerText = el.Title;
+      
+      let goaToPage = () => {
+        console.log(el)
+        window.location.href=el.Path
+      };
+      resultlink.addEventListener("click", goaToPage);
+
+      
+      result.append(resultlink);
+      document.getElementById("two").append(result);
+    });
+  }
+
+  function debounce(SearchFun) {
+    if (id) {
+      clearTimeout(id);
+    }
+    id = setTimeout(function () {
+      //
+      // console.log("HI");
+      FinalSearch();
+    }, 700);
+  }
+};
+
+export { navbar, searchFunction };

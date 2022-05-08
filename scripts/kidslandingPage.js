@@ -1,9 +1,10 @@
-import {navbar} from "../components/navbar.js"
+import {navbar,searchFunction} from "../components/navbar.js"
 document.getElementById("navbar").innerHTML=navbar();
 
   import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
 
+ searchFunction();
 
 let child_obj1=[
     {"image":"https://assets.myntassets.com/f_webp,w_89,c_limit,fl_progressive,dpr_2.0/assets/images/2022/4/12/cca065d6-f192-44dd-9e12-40be8c5ed9ee1649781648648-H_M.jpg"},
