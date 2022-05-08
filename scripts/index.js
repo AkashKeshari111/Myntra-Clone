@@ -1,4 +1,13 @@
 import { navbar ,searchFunction } from "../components/navbar.js";
+
+
+document.getElementById("navbar").innerHTML=navbar();
+
+import { footer } from "../components/footer.js";
+document.getElementById("footerDiv").innerHTML=footer();
+
+searchFunction()
+
 document.getElementById("navbar").innerHTML = navbar();
 
 import { footer } from "../components/footer.js";
@@ -987,34 +996,41 @@ const Home = [
   },
 ];
 
-function append(x, y, containerid) {
+function append(x, y, containerid,pagename) {
   for (let i = x; i < y; i++) {
     let dealOntopImg = document.createElement("img");
     dealOntopImg.style.width = "100%";
     dealOntopImg.src = Home[i].image;
 
+    let linkEd=document.createElement("a")
+    linkEd.append(dealOntopImg)
+    linkEd.href=`/nav_itemsHTML/${pagename}.html`
+    document.getElementById(`${containerid}`).append(linkEd);
+
+
     document.getElementById(`${containerid}`).append(dealOntopImg);
+
   }
 }
-append(0, 10, "dealOfDay");
-append(10, 26, "exclusiveBrands");
-append(26, 33, "topicks");
-append(33, 57, "categorytobag");
-append(57, 81, "dealOntop");
-append(81, 95, "brandsAtslashed");
-append(95, 111, "bestbuy");
-append(111, 119, "myntraluxe");
-append(119, 124, "giftingcards");
-append(124, 128, "dealsonlatestarr");
-append(128, 144, "springsummer");
-append(144, 151, "stylecasthotestfind");
-append(151, 159, "trendsforher");
-append(159, 167, "trendsforhim");
-append(167, 174, "bestforkid");
-append(174, 182, "newintopbrands");
-append(182, 190, "springsummerseason");
-append(190, 206, "newnessforeveryocc");
-append(206, 214, "latestinbeauty");
-append(214, 222, "unmissibleforseason");
-append(222, 228, "coloursofseassion");
-append(228, 234, "topinfluencer");
+append(0, 10, "dealOfDay","lipsticBeauty");
+append(10, 26, "exclusiveBrands","faceBeauty");
+append(26, 33, "topicks","briefWomen");
+append(33, 57, "categorytobag","braWomen",);
+append(57, 81, "dealOntop","jeansMens");
+append(81, 95, "brandsAtslashed","briefWomen");
+append(95, 111, "bestbuy","lakmeBeauty");
+append(111, 119, "myntraluxe","dressesWomen");
+append(119, 124, "giftingcards","topWomen");
+append(124, 128, "dealsonlatestarr","dresesKids");
+append(128, 144, "springsummer","casualTrauser");
+append(144, 151, "stylecasthotestfind","casualShoesMens");
+append(151, 159, "trendsforher","topWomen");
+append(159, 167, "trendsforhim","tshirtMens");
+append(167, 174, "bestforkid","watchesKids");
+append(174, 182, "newintopbrands","braWomen");
+append(182, 190, "springsummerseason","flatsWomen");
+append(190, 206, "newnessforeveryocc","flatsWomen");
+append(206, 214, "latestinbeauty","bedRunnerHome");
+append(214, 222, "unmissibleforseason","lipsticBeauty");
+append(222, 228, "coloursofseassion","shirtsKids");
+append(228, 234, "topinfluencer","casualShoesMens");

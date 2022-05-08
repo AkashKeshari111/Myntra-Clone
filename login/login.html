@@ -4,84 +4,116 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/32979f5c51.js" crossorigin="anonymous"></script>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/CSS/navbar.css">
+  
     <style>
-        #container1{
-         height:500px;
-         width: 80%;
-         background-color: rgb(202, 159, 166);
-         margin: auto;
-         padding: 10%;
-        }
-        #container{
-            height: 100%;
-           max-width: 35%;
-            /* max-width: fit-content; */
-            /* border: 1px solid teal; */
-            margin: auto;
-            
-            /* min-width:80% ; */
-            /* padding: 20px; */
-            /* margin-top: 100px; */
-            background-color:white;
-            box-shadow: 0px 0px 10px 0px #000;
-            
-            
-        }
-        #img{
-            width:100%
-        }
-        #log{
-            padding-left:40px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            color: rgb(83, 79, 79);
-        }
-        #inp{
-          width: 80%;
-          height:40px;
-          gap: 30px ;
+     
+body{
+   background-color:rgb(253,239,236);
 
-        }
-        .in{
-            margin-top: 50px;
-        }
-        .b{
-            color: #ff3f6c;
-            
-        }
-        #btn{
-          background-color:#ff3f6c;  
-          width: 80%;
-          height:40px;
-          gap: 30px ;
-          color: white;
-          font-size: 16px;
-          font-weight: 500;
-          border: white;
-        }
-        #p{
-        margin-top: 20px;
-            /* margin-bottom: 10px; */
-        }
-        #bt{
-            text-decoration: none;
-            color: white;
-        }
+}
+
+     #form{
+         /* border:1px solid red; */
+         width:30%;
+         height:300px;
+         background-color:white;
+       
+}
+     
+     #log{
+         /* border:2px solid black; */
+         display: flex;
+         justify-content: center;
+       
+     }
+
+     #img_div{
+         /* border:1px solid blue; */
+        
+         width:30%;
+     }
+
+     #o_div{
+        display:flex;
+         justify-content: center;
+      
+
+     }
+
+     #img{
+         width:100%;
+     }
+     #form>h2,p{
+         padding-left:7%;
+     }
+
+     #num,#btn{
+         margin-left: 7%;
+    
+        
+     }
+
+     #num{
+         width:80%;
+         height:12%;
+         padding-left: 5%;
+     }
+     #btn{
+         width:85%;
+         height:13%;
+     }
+     a{
+         color: hotpink;
+         text-decoration: none;
+         cursor: pointer;
+     }  
+
     </style>
 </head>
 <body>
-<div id="container1">
+
+
+
+
+    <div id="nav_up">
+        <div id="navbar" > </div>
+      </div>
+      <br><br>
+
+
+
+
 <div id="container">
-<img id="img" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2022/3/16/d4edb37c-aee8-4989-86f4-33b117edd4bc1647415464555-Banner_Login-Landing-page--1-.jpg" alt="">
+    <div id="o_div">
+        <div ID="img_div">
+
+            <img id="img" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2022/3/16/d4edb37c-aee8-4989-86f4-33b117edd4bc1647415464555-Banner_Login-Landing-page--1-.jpg" alt="">
+        </div>
+    </div>
+
+
 <div id="log">
-    <h3 class="in">Login Or Signup</h3>
-    <input id="inp" type="" placeholder="+91  |   Mobile Number">
-    <p>By continuing i agree to the <b class="b">Terms of Use &Privacy <br>
-    Policy </b></p> 
-    <button id="btn" > <a id="bt" href="otp.html">CONTINUE</a> </button>
-    <P id="p">Have trouble logging in ? <b class="b">Get Help</b></P>
-</div>
+    <form id="form" method=post>
+
+
+        <h2 >Login Or Signup</h2><br>
+        <input id="num" type="text" placeholder="Enter your Mobile Number" ><br>
+        <p>By continuing I agree to the <a href="https://www.myntra.com/termsofuse">Terms of Use & Privacy</a href="https://www.myntra.com/privacypolicy"> <br><a href="https://www.myntra.com/privacypolicy">Policy</a> </p>
+       <input id="btn"  type="submit" value="Continue"><br>
+        <p id="p">Have trouble logging in ? <a href="https://www.myntra.com/privacypolicy">Get Help</a></p><br>
+
+    </form>
+  
 </div>
 </div>
 </body>
 </html>
+<script src="login.js"   type="module" >
+
+
+
+
+</script>
