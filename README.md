@@ -1,3 +1,6 @@
+
+URL:https://silly-custard-061700.netlify.app
+
 This repository contains a functional clone of the Myntra website. 
 ![index](https://user-images.githubusercontent.com/101565845/167443012-23c34429-a537-4648-9736-698de63f9b26.PNG)
 The pages that we included here are the home page, search functionality all the pages in the navbar, the cart and checkout process pages, the login and signup pages.
