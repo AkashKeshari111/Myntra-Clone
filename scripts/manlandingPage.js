@@ -3,7 +3,6 @@ document.getElementById("navbar").innerHTML=navbar();
 
   import { footer } from "../components/footer.js";
 document.getElementById("footerDiv").innerHTML=footer();
-searchFunction();
 
 searchFunction();
 

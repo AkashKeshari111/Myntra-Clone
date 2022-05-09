@@ -26,7 +26,7 @@ if (wishlistGo.length == 0) {
   </p>
   <img src="../scripts/wishlist.PNG" alt="" />
   <br />
-  <button id="continue"><a href="/LandingPageHTML/index.html">CONTINUE SHOPPING</a></button>
+  <button id="continue"><a href="/index.html">CONTINUE SHOPPING</a></button>
 </div>`;
 } else {
   document.getElementById("myWishlist").innerText = null;

@@ -3,7 +3,7 @@ function navbar() {
 
            
     <div  class="logo_div">
-      <a href="/LandingPageHTML/index.html"> <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS357fHYAnvyZIqrnolaRs3MlCQO7PyKngEag&usqp=CAU"/></a> 
+      <a href="/index.html"> <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS357fHYAnvyZIqrnolaRs3MlCQO7PyKngEag&usqp=CAU"/></a> 
     </div>
 
    <div class="menu_div">
@@ -428,18 +428,12 @@ function navbar() {
 
 <div class="parent-box-2">
 
-
 <div class="div1">
     <input  type="text" name="" id="search" placeholder="Search for products, brands and more">
     
-
         <span><i class="fa-solid fa-magnifying-glass">&nbsp;</i></span> 
         
         <div id="two" ></div>
-
-        <span><i class="fa-solid fa-magnifying-glass">&nbsp;</i></span>       
-    
-    <div id="two" ></div>
 
 </div>
 
@@ -515,7 +509,6 @@ function navbar() {
 `;
 }
 
-
 let searchFunction = () => {
   let searchData1 = [
     { Title:  "Belts", Path: "/nav_itemsHTML/beltsMens.html" },
@@ -574,8 +567,9 @@ let searchFunction = () => {
     { Title: "Mattress", Path: "/nav_itemsHTML/mattressHome.html" },
     { Title: "Men", Path: "/LandingPageHTML/menlandingPage.html" },
     { Title: "Women", Path: "/LandingPageHTML/womanlandingPage.html" },
-    { Title: "Home and Living", Path: "/LandingPageHTML/LandingPage.html" },
+    { Title: "Home and Living", Path: "/LandingPageHTML/HomeLandingPage.html" },
     { Title: "Tops Women ", Path: "/nav_itemsHTML/topWomen.html" },  
+    { Title: "Tshirt Mens ", Path: "/nav_itemsHTML/tshirtMens.html" },
  
   ];
 
@@ -613,88 +607,10 @@ let searchFunction = () => {
     }
 
     arr = arr.reverse();
-  
-let searchFunction=()=>{
-  let searchData = [
-    "Tshirts For Man",
-    "Tshirts For Women",
-    "Tshirts For Kids",
-    "Tshirts Top Brands",
-    "Tshirts For Couples",
-    "Tshirts For Summer",
-    "Shirts For Man",
-    "Shirts For Women",
-    "Shirts For Kids",
-    "Shirts Top Brands",
-    "Shirts For Couples",
-    "Shirts For Summer",
-    "Shoes For Man",
-    "Shoes For Women",
-    "Shoes For Kids",
-    "Shoes Top Brands",
-    "Jeans For Man",
-    "Jeans For Women",
-    "Jeans For Kids",
-    "Jeans Top Brands",
-    "TOP For Women",
-    "TOP  Brands",
-    "Mens Shirts",
-    "Womens Shirts",
-    "Mens Tshirts",
-    "Womens Tshirts",
-    "Mens Wallet",
-    "Womens Wallet",
-    "Mens Shoes",
-    "Womens Shoes",
-    "Mens Shoes",
-    "Womens Shoes",
-    "Mens Sports Shoes",
-    "Womens Sports Shoes",
-    "Womens Bra",
-    "Womens Briefs",
-    "Flip-flop",
-    "Bags",
-    "Belts",
-    "Beauty Products Womens",
-    "Home -Aromas",
-    "Kurta Woman",
-    "Kurti Tunic Woman",
-    "Shampoo"
-  ];
-  
-  document.getElementById("search").addEventListener("input", debounce);
-  
-  let id;
-  function Fun() {
-    let value = document.getElementById("search").value;
-  
-    var arr = [];
-    // let count = 0;
-    for (let i = 0; i < searchData.length &&value.length>0; i++) {
-      if (
-        searchData[i][0].toLowerCase() == value[0].toLowerCase() &&
-        searchData[i][1] == value[1] &&
-        searchData[i][2] == value[2]
-      ) 
-      {
-        arr.push(searchData[i]);
-      }
-      else if (searchData[i][0].toLowerCase() == value[0].toLowerCase() &&
-      searchData[i][1] == value[1] && value.length==2){
-        arr.push(searchData[i]);
-      }else if( searchData[i][0].toLowerCase() == value[0].toLowerCase() && value.length==1){
-        arr.push(searchData[i]);
-  
-      }
-    }
-    
-  
-    arr=(arr.reverse());
     document.getElementById("two").innerText = null;
     arr.forEach(function (el) {
       let result = document.createElement("div");
       result.setAttribute("id", "result");
-
       let resultlink = document.createElement("a");
       resultlink.style.textDecoration = "none";
       resultlink.style.cursor = "pointer";
@@ -720,31 +636,8 @@ let searchFunction=()=>{
       //
       // console.log("HI");
       FinalSearch();
-    }, 700);
+    }, 400);
   }
 };
 
 export { navbar, searchFunction };
-
-      result.innerText = el;
-      document.getElementById("two").append(result);
-    });
-  }
-  
-  function debounce(SearchFun) {
-    if (id) {
-      clearTimeout(id);
-    }
-    id = setTimeout(function () {
-      //
-      // console.log("HI");
-      Fun();
-    },700);
-  }
-
-}
-
-
-
-
- export {navbar,searchFunction} 

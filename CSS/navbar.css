@@ -23,7 +23,7 @@ body{
 #two
 {
 
-    background-color: #f7f7fc;
+    background-color:white;
     display: inline-block;
     height: 288px;
     position: absolute;
@@ -32,10 +32,13 @@ body{
     height: auto;
     /* height: 340px; */
     max-height: 340px;
-    margin-left: -36px;
+    margin-left: -39px;
     z-index: 1;
     overflow:hidden;
     border: black;
+    border-radius: 0px 0px 4px 4px;
+    overflow:auto;
+    
     
 }
 #result{
@@ -75,33 +78,6 @@ body{
     z-index: 1;
     position: fixed;   
 }
-#two
-{
-
-    background-color: #f7f7fc;
-    display: inline-block;
-    height: 288px;
-    position: absolute;
-    top: 60px;
-    width: 340px;
-    height: auto;
-    /* height: 340px; */
-    max-height: 340px;
-    margin-left: -40px;
-    z-index: 1;
-    overflow:hidden;
-    border: black;
-    
-}
-#result{
-    list-style: none;
-      padding: 15px 4px 5px 12px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      border-bottom-right-radius: 30px;
-      border-bottom-left-radius: 30px;
-  }
 
 
 
@@ -290,7 +266,7 @@ body{
     /* border:1px solid red; */
     /* margin-left: -50px; */
     
-    margin-top: 32px;
+    margin-top: 36px;
 }
 
 #akash1{

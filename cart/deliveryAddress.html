@@ -39,7 +39,11 @@
       .flexThis {
         display: flex;
         justify-content: space-between;
+        gap:17px;
+        
       }
+
+   
       .redBtn {
         border: 1px solid #ff3f6c;
         color: #ff3f6c;
@@ -91,12 +95,13 @@
         margin-bottom: -5px;
       }
       #city {
-        width: 45%;
+        width:40%;
         /* display: flex; */
         /* justify-content: space-around; */
       }
       #state {
         width: 45%;
+        margin-left:-20px;
       }
       #topBagNavbar {
         display: flex;
@@ -118,11 +123,21 @@
         height:40px;
         width:50px;
       }
+
+     #totalP{
+       font-size:large;
+     }
+
+     #home,#work{
+       border:1px solid lightgray;
+     }
+
+
     </style>
   </head>
   <body>
     <div id="topBagNavbar" style="overflow: hidden">
-      <a id="pqr"  href="/LandingPageHTML/index.html"><img  id="img101"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS357fHYAnvyZIqrnolaRs3MlCQO7PyKngEag&usqp=CAU" alt="" /></a>
+      <a id="pqr"  href="/index.html"><img  id="img101"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS357fHYAnvyZIqrnolaRs3MlCQO7PyKngEag&usqp=CAU" alt="" /></a>
       <img src="../scripts/topselect.PNG" alt="" />
     </div>
     <div id="addressContainer">
@@ -143,7 +158,7 @@
           />
           <br />
           <input type="text" id="town" placeholder="Locality / Town*" />
-          <div class="flexThis">
+          <div class="flexThis" style="width: 90%">
             <input type="text" id="city" placeholder="City / District*" />
             <input type="text" id="state" placeholder="State*" />
           </div>
@@ -151,18 +166,18 @@
           <div class="flexThis" style="width: 35%">
             <button
               id="home"
-              style="border-radius: 50px; font-weight: 600"
-              onclick="saveHome"
+              style="border-radius: 50px"
+              
             >
               Home
             </button>
             <button
               style="
                 border-radius: 50px;
-                font-weight: 600;
+               
                 background-color: white;
               "
-              onclick="saveWork"
+              
               id="work"
             >
               Work

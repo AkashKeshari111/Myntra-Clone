@@ -230,16 +230,22 @@ margin-left: 45px;
 
 
 
-@media all and (min-width:421px) and (max-width:780px){
-    #append_data,#a1,#a2,#a3{
+@media only screen and (min-width:421px) and (max-width:900px){
+    .col-10 #append_data,#a1,#a2,#a3{
+        display: grid;
         grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        gap:5px;
     }
 }
 
 
 
-@media all and (min-width:50px) and (max-width:421px){
-    #append_data,#a1,#a2,#a3{
+@media  only screen and (min-width:50px) and (max-width:421px){
+    .col-10 #append_data,#a1,#a2,#a3{
+        display: grid;
         grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+        gap:2px;
     }
 }

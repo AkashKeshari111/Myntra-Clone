@@ -1,6 +1,5 @@
 import { navbar ,searchFunction } from "../components/navbar.js";
 
-
 document.getElementById("navbar").innerHTML=navbar();
 
 import { footer } from "../components/footer.js";
@@ -8,12 +7,9 @@ document.getElementById("footerDiv").innerHTML=footer();
 
 searchFunction()
 
-document.getElementById("navbar").innerHTML = navbar();
 
-import { footer } from "../components/footer.js";
-document.getElementById("footerDiv").innerHTML = footer();
 
-searchFunction()
+
 
 
 
@@ -1001,15 +997,10 @@ function append(x, y, containerid,pagename) {
     let dealOntopImg = document.createElement("img");
     dealOntopImg.style.width = "100%";
     dealOntopImg.src = Home[i].image;
-
     let linkEd=document.createElement("a")
     linkEd.append(dealOntopImg)
     linkEd.href=`/nav_itemsHTML/${pagename}.html`
     document.getElementById(`${containerid}`).append(linkEd);
-
-
-    document.getElementById(`${containerid}`).append(dealOntopImg);
-
   }
 }
 append(0, 10, "dealOfDay","lipsticBeauty");
@@ -1034,3 +1025,13 @@ append(206, 214, "latestinbeauty","bedRunnerHome");
 append(214, 222, "unmissibleforseason","lipsticBeauty");
 append(222, 228, "coloursofseassion","shirtsKids");
 append(228, 234, "topinfluencer","casualShoesMens");
+
+
+
+
+
+
+
+
+
+
