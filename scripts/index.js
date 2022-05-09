@@ -7,6 +7,12 @@ document.getElementById("footerDiv").innerHTML=footer();
 
 searchFunction()
 
+
+
+
+
+
+
 const Home = [
   {
     image:
@@ -1019,3 +1025,13 @@ append(206, 214, "latestinbeauty","bedRunnerHome");
 append(214, 222, "unmissibleforseason","lipsticBeauty");
 append(222, 228, "coloursofseassion","shirtsKids");
 append(228, 234, "topinfluencer","casualShoesMens");
+
+
+
+
+
+
+
+
+
+

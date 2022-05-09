@@ -27,7 +27,7 @@ function mybtn1(){
         alert("Invalid mobile number !")
         return false;
     }
-     if((num.charAt(0)!=9) && (num.charAt(0)!=8) && (num.charAt(0)!=7)){
+     if((num.charAt(0)!=9) && (num.charAt(0)!=8) && (num.charAt(0)!=7) && (num.charAt(0)!=6)){
          alert("Please enter a valid mobile number");
          return false;
      }

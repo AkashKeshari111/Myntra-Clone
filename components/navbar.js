@@ -3,7 +3,7 @@ function navbar() {
 
            
     <div  class="logo_div">
-      <a href="/LandingPageHTML/index.html"> <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS357fHYAnvyZIqrnolaRs3MlCQO7PyKngEag&usqp=CAU"/></a> 
+      <a href="/index.html"> <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS357fHYAnvyZIqrnolaRs3MlCQO7PyKngEag&usqp=CAU"/></a> 
     </div>
 
    <div class="menu_div">
@@ -567,8 +567,9 @@ let searchFunction = () => {
     { Title: "Mattress", Path: "/nav_itemsHTML/mattressHome.html" },
     { Title: "Men", Path: "/LandingPageHTML/menlandingPage.html" },
     { Title: "Women", Path: "/LandingPageHTML/womanlandingPage.html" },
-    { Title: "Home and Living", Path: "/LandingPageHTML/LandingPage.html" },
+    { Title: "Home and Living", Path: "/LandingPageHTML/HomeLandingPage.html" },
     { Title: "Tops Women ", Path: "/nav_itemsHTML/topWomen.html" },  
+    { Title: "Tshirt Mens ", Path: "/nav_itemsHTML/tshirtMens.html" },
  
   ];
 
@@ -635,7 +636,7 @@ let searchFunction = () => {
       //
       // console.log("HI");
       FinalSearch();
-    }, 700);
+    }, 400);
   }
 };
 

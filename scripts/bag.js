@@ -55,14 +55,14 @@ cartGo.map((elem, index) => {
   box.style.border = "1px solid grey";
   box.style.borderRadius = "5px";
 
-  let select = document.createElement("input");
-  select.type = "checkbox";
-  select.style.position = "relative";
-  select.style.bottom = "50px";
-  select.addEventListener("click", function () {
-    editCart.push(elem, index);
-    console.log(editCart);
-  });
+  // let select = document.createElement("input");
+  // select.type = "checkbox";
+  // select.style.position = "relative";
+  // select.style.bottom = "50px";
+  // select.addEventListener("click", function () {
+  //   editCart.push(elem, index);
+  //   console.log(editCart);
+  // });
 
   let img = document.createElement("img");
   img.src = elem.image;
@@ -79,11 +79,30 @@ cartGo.map((elem, index) => {
   // closeX.style.border = "0px";
 
   let name = document.createElement("p");
-  name.innerText = elem.t;
+  name.innerText = elem.type;
   name.style.fontSize = "small";
   name.style.fontWeight = "400";
-  name.style.lineHeight = "0px";
+  name.style.lineHeight = "30px";
 
+
+  let remove = document.createElement("button");
+  remove.className = "invisiblebtn";
+  remove.innerText = "REMOVE";
+  remove.style.fontSize = "small";
+  remove.addEventListener("click", function () {
+    removeElement(elem, index);
+  });
+
+
+
+  let nameButtonDiv = document.createElement("div");
+  // nameButtonDiv.style.border = "1px solid red";
+  nameButtonDiv.style.display = "flex";
+  nameButtonDiv.style.justifyContent = "space-evenly";
+  nameButtonDiv.style.width = "100%";
+  nameButtonDiv.style.height = "30px";
+
+  nameButtonDiv.append(name, remove);
   // let merchant = document.createElement("p");
   // merchant.innerText = elem.merchant;
   // merchant.style.fontSize = "x-small";
@@ -116,18 +135,21 @@ cartGo.map((elem, index) => {
   sizeDiv.style.justifyContent = "space-between";
 
   let price = document.createElement("h6");
-  price.innerText = elem.price;
+  price.innerText =`₹  ${elem.price}`;
   price.style.fontSize = "85%";
 
   let MP = document.createElement("p");
-  MP.innerText = elem.MP;
+  MP.innerText =`₹ ${elem.MP}`;
   MP.style.color = "grey";
   MP.style.textDecoration = "line-through";
   MP.style.fontSize = "85%";
   // console.log(MP);
 
+
+  
+
   let offer = document.createElement("p");
-  offer.innerText = elem.offer;
+  offer.innerText = `${elem.offer}% OFF`;
   offer.style.color = "#ff3f6c";
   offer.style.fontSize = "85%";
 
@@ -145,19 +167,19 @@ cartGo.map((elem, index) => {
   deliveryDate.style.fontSize = "x-small";
   deliveryDate.innerText = "Delivery by: 7 May 2022";
 
-  boxLeft.append(select, img);
-  boxRight.append(brand, name, sizeDiv, priceDiv, deliveryDate);
+  boxLeft.append(img);
+  boxRight.append(brand, nameButtonDiv, sizeDiv, priceDiv, deliveryDate);
   box.style.display = "flex";
   box.style.height = "100px";
   box.append(boxLeft, boxRight);
   document.getElementById("appendBag").append(box);
 });
 
-function removeElement(editCart) {
-  for (let i = 0; i < editCart.length; i++) {
-    let elem = editCart[i];
-  }
-}
+// function removeElement(editCart) {
+//   for (let i = 0; i < editCart.length; i++) {
+//     let elem = editCart[i];
+//   }
+// }
 let priceData = JSON.parse(localStorage.getItem("totalPriceInfo"));
 console.log(priceData);
  totalActual = priceData.totalActualPrice;
@@ -168,3 +190,22 @@ console.log(priceData);
 document.getElementById("totalActual").innerText = `₹ ${totalActual}`;
 document.getElementById("total").innerText = `₹ ${totalPrice}`;
 document.getElementById("discount").innerText = `₹ ${discount}`;
+
+
+
+function removeElement(elem, index) {
+  cartGo.splice(index, 1);
+  localStorage.setItem("cartGo", JSON.stringify(cartGo));
+  nums = cartGo.length;
+  let titleDiv = document.createElement("div");
+  let titleWish = document.createElement("h6");
+  titleWish.innerText = "ITEMS";
+  let num = document.createElement("h6");
+  // num.style.lineHeight = "20px";
+  titleWish.style.marginLeft = "10px";
+  num.innerText = `${nums} `;
+  titleDiv.append(num, titleWish);
+  titleDiv.style.display = "flex";
+  document.getElementById("numberOfItems").append(titleDiv);
+  window.location.reload();
+}

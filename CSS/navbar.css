@@ -23,7 +23,7 @@ body{
 #two
 {
 
-    background-color: #f7f7fc;
+    background-color:white;
     display: inline-block;
     height: 288px;
     position: absolute;
@@ -32,10 +32,13 @@ body{
     height: auto;
     /* height: 340px; */
     max-height: 340px;
-    margin-left: -36px;
+    margin-left: -39px;
     z-index: 1;
     overflow:hidden;
     border: black;
+    border-radius: 0px 0px 4px 4px;
+    overflow:auto;
+    
     
 }
 #result{
@@ -263,7 +266,7 @@ body{
     /* border:1px solid red; */
     /* margin-left: -50px; */
     
-    margin-top: 32px;
+    margin-top: 36px;
 }
 
 #akash1{
