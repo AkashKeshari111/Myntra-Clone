@@ -23,7 +23,7 @@ This repository contains a functional clone of the Myntra website. Myntra is a m
 
 
 ## URL:
-https://1pharmeasy.netlify.app/
+https://harmonious-cactus-56f5c6.netlify.app/
 
 ## screenshots
 
