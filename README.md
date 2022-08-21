@@ -23,7 +23,7 @@ This repository contains a functional clone of the Myntra website. Myntra is a m
 
 
 ## URL:
-https://harmonious-cactus-56f5c6.netlify.app/
+https://silly-custard-061700.netlify.app/
 
 ## screenshots
 
