@@ -23,7 +23,7 @@ This repository contains a functional clone of the Myntra website. Myntra is a m
 
 
 ## URL:
-https://silly-custard-061700.netlify.app/
+https://myntra1-clone.netlify.app/
 
 ## screenshots
 
