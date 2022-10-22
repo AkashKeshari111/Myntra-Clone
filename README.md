@@ -25,6 +25,9 @@ This repository contains a functional clone of the Myntra website. Myntra is a m
 ## URL:
 https://myntra1-clone.netlify.app/
 
+## Youtube video Link:
+https://www.youtube.com/watch?v=hRa_GmDQc88&list=PLZQiN5xJpq1UFrFDv6Q5hY2ttVbwmPf2e&index=3&t=312s
+
 ## screenshots
 
 ![index](https://user-images.githubusercontent.com/101565845/167443012-23c34429-a537-4648-9736-698de63f9b26.PNG)
