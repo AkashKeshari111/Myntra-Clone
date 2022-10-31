@@ -8,6 +8,15 @@ This repository contains a functional clone of the Myntra website. Myntra is a m
 [Rishon A Singh](https://github.com/Rishon-A-Singh)
 [Kapil Kumar](https://github.com/KapilKumar7)
 
+
+## Tech Stack
+- HTML
+- CSS
+- Javascript - (DOM Manipulation, Local Storage)
+- Bootstrap
+- Git
+- github
+
 ## pages and features
 - Home Page:- Nav Bar, sliding banners & slider for Products.
 - Sign-In:- User authentication to check whether user email and password match with details existing in the database.
@@ -43,12 +52,5 @@ https://www.youtube.com/watch?v=hRa_GmDQc88&list=PLZQiN5xJpq1UFrFDv6Q5hY2ttVbwmP
 ![payment](https://user-images.githubusercontent.com/101565845/167609016-b664f0cd-c5a8-4f56-960a-48f4ad79b721.PNG)
 
 
-## Tech Stack
-- HTML
-- CSS
-- Javascript - (DOM Manipulation, Local Storage)
-- Bootstrap
-- Git
-- github
 
 
